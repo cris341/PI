@@ -1,0 +1,89 @@
+.body{
+    color: white;
+}
+
+.container{
+    position: obsolute;
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+
+.ordenado label {
+    font-size: larger;
+}
+.ordenado ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    width: 95%;
+}
+
+.ordenado li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    /* float:right; */
+}
+
+
+.ordenado li:hover{
+    color: rgb(173, 117, 226);
+    cursor: pointer;
+}
+.ordenado select{
+    font-size: larger;
+    color: white;
+    margin-left: 20px;
+    background: rgb(173, 117, 226);
+}
+.ordenado select:hover{
+    background: rgb(140, 61, 214);
+}
+.ordenado select option{
+    color: white;
+    background: rgb(173, 117, 226);
+}
+.ordenado select option:hover{
+    background: rgb(140, 61, 214);
+}
+.ordenado input {
+    width: 150px;
+    font-size: larger;
+    color: white;
+    background-color:rgb(173, 117, 226) ;
+}
+.ordenado input::placeholder{
+    color: white;
+}
+.banner{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.banner img{
+    width: 600px;
+    border-radius: 15px;
+}
+.juego_button{
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgb(219, 69, 0);
+    width: 120px;
+}
+.juego_button a{
+    font-family:'Monaco';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+.juego_button:hover{
+    background-color: rgb(170, 54, 0);
+}

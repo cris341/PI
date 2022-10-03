@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: urL("./img/fondo.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+.inicio{
+  background-image: urL("./img/banner1.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: white;
+  border-radius: 15px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 800px;
+  height: 1000;
+}
+.inicio img {
+  width:130px;
+  padding-right: 30px;
+}
+.inicio h1{
+  font-size: 80px;
+  font-family:'Monaco';
+  text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+.button_inicio:hover{
+  background-color: #a61af7;
+  border-radius: 15px;
+}
+.button_inicio{
+  margin: 0 auto;
+  width: 150px;
+}
+.button_inicio a{
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px -1px 1px #aaa,
+  0px 4px 1px rgba(0,0,0,0.5),
+  4px 4px 5px rgba(0,0,0,0.7),
+  0px 0px 7px rgba(0,0,0,0.4);
+}
+.error_404{
+  color: white;
+  font-size: 30px;
+  font-family:'Monaco';
 }
